@@ -1,0 +1,19 @@
+.footer {
+  background-color: var(--background-header);
+  padding-top: 42px;
+  padding-bottom: 40px;
+
+  &__copy {
+    color: var(--background-color);
+    margin: 0;
+  }
+}
+
+.container {
+  padding-left: 98px;
+  padding-right: 98px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

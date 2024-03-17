@@ -1,0 +1,48 @@
+.container {
+  padding-left: 98px;
+  padding-right: 98px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.contacts {
+  position: relative;
+  padding-top: 46px;
+  padding-bottom: 52px;
+
+  &__wrapper {
+    margin: 0;
+  }
+
+  &__title {
+    font-size: var(--primary-text-size);
+    line-height: 1.5;
+    color: var(--background-header);
+    margin-bottom: 30px;
+  }
+
+  &__list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: flex-end;
+  }
+
+  &__list_item {
+    margin: 0;
+    color: var(--primary-color);
+    font-size: var(--primary-text-size);
+    line-height: 1.5;
+  }
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1366px;
+    height: 1px;
+    background-color: #ccc;
+  }
+}

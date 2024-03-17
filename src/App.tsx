@@ -1,3 +1,16 @@
+import { Header, About, Stocks, Reviews, Contacts, Footer } from "./components";
+
 export const App = () => {
-  return <div>hello</div>;
+  return (
+    <>
+      <Header />
+      <main>
+        <About />
+        <Stocks />
+        <Reviews />
+        <Contacts />
+      </main>
+      <Footer />
+    </>
+  );
 };
