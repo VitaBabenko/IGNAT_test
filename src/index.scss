@@ -19,6 +19,7 @@
   --third-text-size: 38px;
   --text-size-header-footer: 12px;
   --text-size-title: 64px;
+  --title-reviews-text-size: 26px;
 
   --animation-hover: 0.5s ease-in-out;
 }
@@ -28,6 +29,7 @@ body {
   font-weight: 400;
   font-style: normal;
   width: 1366px;
+  margin: 0 auto;
   min-height: 100vh;
   background-color: var(--background-color);
 }

@@ -1,3 +1,5 @@
+import photo from "../../assets/images/about.webp";
+
 import data from "../../data/about.json";
 
 import styles from "./About.module.scss";
@@ -13,7 +15,7 @@ export const About = () => {
             {data.btn}
           </button>
         </div>
-        <img src={data.img} alt={data.alt} width={570} />
+        <img src={photo} alt={data.alt} width={570} />
       </div>
     </section>
   );
