@@ -26,7 +26,7 @@ export const SwiperGoods = () => {
       spaceBetween={30}
       centeredSlides
       a11y={{ enabled: true }}
-      style={{ position: "relative", paddingTop: "31px" }}
+      style={{ position: "relative", paddingTop: "40px" }}
     >
       {swiper.map(
         ({

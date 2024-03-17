@@ -1,5 +1,6 @@
 import {
   Header,
+  Hero,
   About,
   Goods,
   Stocks,
@@ -13,6 +14,7 @@ export const App = () => {
     <>
       <Header />
       <main>
+        <Hero />
         <About />
         <Goods />
         <Stocks />

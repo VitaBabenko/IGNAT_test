@@ -1,4 +1,5 @@
 export { Header } from "./Header";
+export * from "./Hero";
 export { About } from "./About";
 export * from "./Goods";
 export * from "./Stocks";

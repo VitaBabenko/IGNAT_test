@@ -4,7 +4,6 @@ import styles from "./SliderNextBtn.module.scss";
 
 export const SliderNextBtn = () => {
   const swiper = useSwiper();
-  console.log(swiper);
 
   return (
     <button
