@@ -1,0 +1,19 @@
+.list {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  list-style: none;
+
+  &__item {
+    font-size: var(--primary-text-size);
+    line-height: 1.5;
+    margin: 0;
+    text-transform: uppercase;
+    cursor: pointer;
+
+    &:hover {
+      transform: scale(1.1);
+      transition: var(--animation-hover);
+    }
+  }
+}

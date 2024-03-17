@@ -1,0 +1,32 @@
+.search {
+  margin: 0;
+  display: flex;
+  position: relative;
+
+  &__btn_search {
+    position: absolute;
+    top: 9px;
+    left: 9px;
+    display: block;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    margin: 0;
+  }
+
+  &__input {
+    width: 282px;
+    height: 40px;
+    background-color: var(--input-background);
+    border: none;
+    border-radius: 15px;
+  }
+
+  &__btn_bag {
+    display: block;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    margin: 0 0 0 20px;
+  }
+}
