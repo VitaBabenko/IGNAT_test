@@ -1,0 +1,35 @@
+.reviews {
+  display: flex;
+  gap: 30px;
+  justify-content: flex-end;
+  position: absolute;
+  top: -14%;
+  right: 0;
+
+  &__pagination {
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+  }
+
+  &__subtitle {
+    margin: 0;
+  }
+}
+
+.wrapper {
+  display: flex;
+  gap: 30px;
+}
+
+.slide {
+  border-radius: 10px;
+  border: 1px solid #000;
+  padding: 30px 30px;
+
+  &__header {
+    display: flex;
+    margin-bottom: 20px;
+  }
+}
