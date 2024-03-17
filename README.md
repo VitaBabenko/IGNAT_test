@@ -1,6 +1,6 @@
 # IGNAT
 
-**[VIEW LIVE PAGE]([https://ignat-test.vercel.app])**
+View live page: **(https://ignat-test.vercel.app)**
 
 
 ## About project
