@@ -1,30 +1,27 @@
-# React + TypeScript + Vite
+# IGNAT
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**[VIEW LIVE PAGE]([https://ignat-test.vercel.app])**
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## About project
 
-## Expanding the ESLint configuration
+   This is an online store of sportswear.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+ 
+## Technology stack
 
-- Configure the top-level `parserOptions` property like this:
+   React.js, TypeScript, SASS
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+ 
+## Installation
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+If you want to look at the project`s code and deploy it, follow the steps below.
+1. Clone the repository:
+git clone https://github.com/VitaBabenko/IGNAT_test.git
+2. Install the dependencies:
+`npm install` or `yarn install`
+3. Run this command for a dev server:
+`npm run dev` or `yarn dev`
+
+
+
