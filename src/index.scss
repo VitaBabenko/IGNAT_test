@@ -1,0 +1,32 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #626262;
+  --secondary-color: #323232;
+  --price-color: #4aaa4e;
+  --background-header: #343434;
+  --background-color: #fff;
+  --input-background: #e8e8e8;
+  --input-text-color: #959595;
+
+  --primary-text-size: 16px;
+  --secondary-text-size: 20px;
+  --third-text-size: 38px;
+  --text-size-header-footer: 12px;
+  --text-size-title: 64px;
+
+  --animation-hover: 0.5s ease-in-out;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  width: 1366px;
+  min-height: 100vh;
+  background-color: var(--background-color);
+}
