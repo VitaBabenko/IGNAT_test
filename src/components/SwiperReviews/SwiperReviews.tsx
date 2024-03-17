@@ -25,8 +25,6 @@ export const SwiperReviews = () => {
       centeredSlides
       a11y={{ enabled: true }}
       style={{ position: "relative", paddingTop: "30px" }}
-      onSlideChange={() => console.log("slide change")}
-      onSwiper={(swiper) => console.log(swiper)}
     >
       {swiper.map(({ id, page, title, subtitle }) => (
         <SwiperSlide key={id}>
