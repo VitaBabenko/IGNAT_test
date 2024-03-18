@@ -3,6 +3,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 
 import { SliderNextBtn } from "../SliderNextBtn";
 import { SlidePrevBtn } from "../SliderPrevBtn";
+import { StarsIconGroup } from "../StarsIconGroup";
 
 import "swiper/css";
 import "swiper/css/navigation";
@@ -12,7 +13,7 @@ import "swiper/css/scrollbar";
 import styles from "./SwiperReviews.module.scss";
 
 import data from "../../data/reviews.json";
-import photo from "../../assets/images/Mask.png";
+import photo from "../../assets/images/Mask.webp";
 
 export const SwiperReviews = () => {
   const { swiper } = data;
@@ -39,28 +40,40 @@ export const SwiperReviews = () => {
             <div className={styles.slide}>
               <div className={styles.slide__header}>
                 <img src={photo} alt="фото користувача" />
-                <h4 className={styles.slide__title}>{title}</h4>
+                <div>
+                  <StarsIconGroup />
+                  <h4 className={styles.slide__title}>{title}</h4>
+                </div>
               </div>
               <p>{subtitle}</p>
             </div>
             <div className={styles.slide}>
               <div className={styles.slide__header}>
                 <img src={photo} alt="фото користувача" />
-                <h4 className={styles.slide__title}>{title}</h4>
+                <div>
+                  <StarsIconGroup />
+                  <h4 className={styles.slide__title}>{title}</h4>
+                </div>
               </div>
               <p>{subtitle}</p>
             </div>
             <div className={styles.slide}>
               <div className={styles.slide__header}>
                 <img src={photo} alt="фото користувача" />
-                <h4 className={styles.slide__title}>{title}</h4>
+                <div>
+                  <StarsIconGroup />
+                  <h4 className={styles.slide__title}>{title}</h4>
+                </div>
               </div>
               <p>{subtitle}</p>
             </div>
             <div className={styles.slide}>
               <div className={styles.slide__header}>
                 <img src={photo} alt="фото користувача" />
-                <h4 className={styles.slide__title}>{title}</h4>
+                <div>
+                  <StarsIconGroup />
+                  <h4 className={styles.slide__title}>{title}</h4>
+                </div>
               </div>
               <p>{subtitle}</p>
             </div>
